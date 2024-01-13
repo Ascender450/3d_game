@@ -21,63 +21,17 @@ for n in range(20):
             parent=scene,
             origin_y=0.5
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         )
         boxes.append(box)
 
 
-sword = Entity(
+hand = Entity(
     model="cube",
     color="peach",
     position=(0.5, -0.6),
     rotation=(30,-40),
     parent=camera.ui,
     scale=(0.1,1, 0.1)
-
-
-
-
 
 )
 
